@@ -124,7 +124,7 @@ import { useStudentConsumer } from "../StudentContext";
             </form>
             <div className="Click-btn">
             <button onClick={() => FormCancel()}>CANCEL</button>
-            <button  onClick={ () =>FormSubmit() }>Add</button>
+            <button  onClick={ () =>FormSubmit() }>{AddBtn}</button>
             </div>
               </section>
            }
